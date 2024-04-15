@@ -1,6 +1,24 @@
-const primeiroNome = "Eduarda"
-const segundoNome = "Rodrigues"
-const idade = "15"
-const serEstudante  = "Sim"
-console.log("Seu nome é", primeiroNome, ",seu sobrenome é ",segundoNome, "você tem" ,idade,"anos. É estudante?", serEstudante)
-// Seu nome é Eduarda ,seu sobrenome é  Rodrigues você tem 15 anos. É estudante? Sim
+// recebeu as variáveis
+let nome = prompt("digite seu nome: ")
+let idade = prompt("digite seu idade: ")
+// MENSAGEM: Digite as horas que você trabalha por dia:
+let horasTrabalho = prompt("Digite as horas que você trabalha por dia: ")
+let salarioDia = prompt("Digite o seu salário diário: ")
+// Verificando as variaveis
+console.log(typeof nome)
+console.log(typeof horasTrabalho)
+console.log(typeof salarioDia)
+//Convertendo o que é necessário
+let horasTrabNumber = Number(horasTrabalho)
+let salDiaNumber = Number(salarioDia)
+//Processando valores
+let valHoraNumber = horasTrabNumber/salDiaNumber
+//Conversão para não dar errp de NULL
+let valorHora = String(valHoraNumber)
+const mensagem = "Seu valor hora e " + valorHora + "!!!"
+//Verificando variaveis
+console.log(typeof valorHora)
+console.log(typeof mensagem)
+console.log(mensagem)
+//saída de valores para Front End
+alert(mensagem)
