@@ -25,7 +25,7 @@ alert(idadeEmAnos * 12)
 alert(idadeEmAnos * 365)
 alert(idadeEmAnos * 87660)*/
 
-let numero1
+/*let numero1
 let numero2
 
 numero1 = Number(prompt("Escolha um primeiro numero:"))
@@ -41,7 +41,11 @@ resultado = (numero1 % numero2) == 0
 alert(`o primeiro numero é divisivel pelo segundo?${resultado}`)
 
 resultado = (numero2 % numero1) == 0
-alert(`o segundo numero é divisivel pelo primeiro?${resultado}`)
+alert(`o segundo numero é divisivel pelo primeiro?${resultado}`)*/
+
+
+
+
 
 
 
