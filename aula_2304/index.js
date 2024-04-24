@@ -49,11 +49,43 @@ if ((idade >= 18) && (ensinoMedio == "sim") && (faculdade == "não")){
 
     
 //Exercícios notion escrita de código
- let numero = Number(prompt("Digite sua idade: "))
- if(numero >= 18){
-    alert("Você pode dirigir")
- } else{
-    alert("Você não pode dirigir")
- }
+//  let numero = Number(prompt("Digite sua idade: "))
+//  if(numero >= 18){
+    // alert("Você pode dirigir")
+//  } else{
+    // alert("Você não pode dirigir")
+//  }
 
+/*let turno = prompt("Digite o turno que você estuda: M para manhã, V para tarde e N para noite")
+if (turno == "M"){
+    alert("Bom dia")
+}else if (turno == "V"){
+    alert("Boa tarde")
+}else if (turno == "N"){
+    alert("Boa noite")
+}*/
+
+/*let turnoDeEstudo = prompt("Digite o turno que você estuda: M para manhã, V para tarde e N para noite")
+switch (turnoDeEstudo){
+case "M" :
+    alert("Bom dia")
+    break
+case "V" :
+    alert("Boa tarde")
+    break
+ case "N" :
+    alert("Boa noite")
+    break
+default:
+    alert("Turno não encontrado")
+    break
+}*/
+
+let filme = prompt("Escolha um gênero: ")
+let valorDoIngresso = Number(prompt("Qual o valor do ingresso?"))
+if ((filme = "fantasia") && (valorDoIngresso >= 15)){
+    alert("Bom filme!")
+}else {
+    alert("Escolha outro filme: ")
+}
 
