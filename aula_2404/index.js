@@ -1,10 +1,17 @@
-
-let filme = prompt("Escolha um gênero: ")
-let valorDoIngresso = Number(prompt("Qual o valor do ingresso?"))
-let lanchinho = prompt("O que você quer comer? ")
-filme = filme.toUpperCase ()
-if ((filme = "fantasia") && (valorDoIngresso <= 15)){
-    alert("Bom filme! Aproveite seu " + lanchinho)
-}else {
-    alert("Escolha outro filme: ")
+/*let numero = Number(prompt("Digite um número: "))
+let soma = 0
+while(numero !== 0){
+soma = soma + numero
+numero = Number(prompt("Digite outro número"))
 }
+alert(soma)*/
+
+let array = [11,15,18,14,12,13]
+let maiorNum = 0
+
+for(let i = 0; i < 6; i++){
+    if(array[i] > maiorNum){
+        maiorNum = array[i]
+    }
+}
+alert("O maior número é " + maiorNum)
