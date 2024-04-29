@@ -6,7 +6,7 @@ numero = Number(prompt("Digite outro número"))
 }
 alert(soma)*/
 
-let array = [11,15,18,14,12,13]
+/* array = [11,15,18,14,12,13]
 let maiorNum = 0
 
 for(let i = 0; i < 6; i++){
@@ -14,4 +14,9 @@ for(let i = 0; i < 6; i++){
         maiorNum = array[i]
     }
 }
-alert("O maior número é " + maiorNum)
+alert("O maior número é " + maiorNum)*/
+
+function imprimirOlaMundo() {
+    console.log("Olá mundo!")
+}
+
