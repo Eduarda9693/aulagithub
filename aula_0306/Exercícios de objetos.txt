@@ -1,0 +1,24 @@
+1. 
+a.
+Matheus Nachtergaele.
+Selton Mello
+Globo 14h
+
+2. 
+a.
+Juca
+Juba
+Jubo
+
+b.
+imprime um a um.
+
+3.
+a.
+false
+indefinido
+b. porque backender está definido como false e altura está indefino.
+
+
+
+
